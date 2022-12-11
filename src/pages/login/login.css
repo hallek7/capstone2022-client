@@ -1,0 +1,66 @@
+.login {
+height: calc(100vh - 50px);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+    ), url("../../../public/images/kevin-solbrig-pEuqq2MiwaU-unsplash.jpg");
+background-size: flex;
+}
+
+.loginInput:focus {
+    outline: none;
+  }
+  
+.loginTitle {
+    font-size: 50px;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }  
+
+  .loginForm > label {
+    margin: 10px 0;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+  }
+  .loginInput:focus {
+    outline: none;
+  }
+
+  .loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(39, 161, 11);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .loginButton:disabled {
+    cursor:not-allowed;
+    background-color: gray;
+  }
+  .loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
